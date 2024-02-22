@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter {
+  position: relative;
+}
+
+.filter::before {
+  content: url("filter.svg");
+  position: absolute;
+  left: -20px;
+}
